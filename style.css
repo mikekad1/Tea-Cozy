@@ -1,8 +1,152 @@
-body {
-    font-family: Arial, Helvetica, sans-serif
+html {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
     color: seashell;
     background-color: black;
     opacity: 0.9;
     text-align: center;
-}
+ }
+ 
+ #logo {
+   position: fixed;
+   top: 0;
+   left: 160px;
+   padding: 10px;
+ }
+ 
+ #logo img {
+   height: 50px;
+ }
+ 
+ nav ul li {
+   list-style-type: none;
+   display: inline-flex;
+ }
+ 
+ nav {
+   position: fixed;
+   right: 170px;
+   top: 0;
+   z-index: 1;
+ }
+ 
+ nav ul li {
+   padding-right: 20px;
+ }
+ 
+ a:link {
+   color: seashell;
+ }
+ 
+ header {
+   position: fixed;
+   height: 69px;
+   
+ }
+ main {
+   position: relative;
+   z-index: -1;
+   display: flex;
+   justify-content: center;
+ }
+ 
+ #background {
+   display: flex;
+   justify-content: center;
+   height: 700px;
+   width: 1200px;
+   background-image: url('assets/img-mission-background.jpg');
+   background-position: 30% 35%;
+   background-size: 1300px;
+   margin: 69px auto;
+ }
+ 
+ 
+ #mission {
+   background-color: black;
+   position: absolute;
+   top: 45%;
+   height: 100px;
+   width: 100%;
+   display: flex-inline;
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+ }
+ 
+ #mission h1, h2 {
+   line-height: 10px;
+ }
+ 
+ 
+ 
+ #menu-items {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   max-width: 1200px;
+   margin: 0 auto;
+ }
+ 
+ 
+ #menu-items .images img{
+   list-style-type: none;
+   height: 200px;
+   width: 300px; 
+   padding: 10px;
+ }
+ 
+ .images {
+   display: flex;
+   flex-direction: column;
+ }
+ 
+ #locations {
+   height: 500px;
+   width: 1200px;
+   background-image: url('assets/img-locations-background.jpg');
+   background-position: 30% 35%;
+   background-size: 1300px;
+   margin: 20px auto;
+ }
+   
+ #locations h1{
+   position: relative;
+   top: 25px;
+ }
+ 
+ #boxes {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ 
+ .box {
+   max-width: 300px;
+   max-height: 250px;
+   padding: 40px;
+   background-color: black;
+   opacity: 1;
+   margin: 15px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+ }
+ 
+ footer {
+   max-height: 200px;
+   display: flex;
+   flex-direction: column;
+ }
+ 
+ 
+ footer #footnote {
+   padding: 20px;
+   display: flex;
+   justify-content: flex-start;
+   flex-direction: row;
+ }
